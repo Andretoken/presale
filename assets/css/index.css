@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "SKCuriosity-Regular";
+    src: url("../font/SKCuriosity-Regular.ttf");
+}
+@font-face {
+    font-family: "SKCuriosity-Bold";
+    src: url("../font/SKCuriosity-Bold.ttf");
+}
+* {
+    font-family: SKCuriosity-Regular;
+}
+html {
+    background-color: #ffffff !important;
+}
+
+
+.origin {
+    padding: 15px;
+}
+.header {
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px 0;
+}
+.top-navigation .logo {
+    font-size: 1.5pc !important;
+    font-weight: 700;
+
+}
+.top-navigation .network {
+    float: right;
+}
+.top-navigation .network input {
+    background-color: rgb(231, 226, 255);
+    border: 0;
+    padding: 5px 24px;
+    border-radius: 18px;
+    color: #0000ff;
+    font-style: normal;
+    font-weight: 500;
+}
+.presale-status {
+    margin-top: 30px;
+}
+.presale-status label{
+    float: right;
+    padding: 5px 24px;
+    background-color: #ffe2e2;
+    border-radius: 18px;
+    font-size: 0.7pc;
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 500;
+}
+.project-logo img {
+    width: 50px;
+    height: 50px;
+    background-color: #f2f8ff;
+    border-radius: 360px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.project-name h1 {
+    font-family: "SKCuriosity-Bold";
+}
+.project-networking a img {
+    width: 20px;
+    height: 20px !important;
+    margin-right: 7px;
+}
+.project-networking a {
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+}
+.project-networking a:hover {
+    color: #ffffff;
+}
+.presale-details, .project-details {
+    margin-top: 30px;
+}
+.project-address, .project-token, .project-symbol, .project-decimal, .project-contract, .project-supply, .project-supplyout, .project-liquidity, .project-salesrate, .project-listingrate, .project-softcap, .project-hardcap, .project-unsold, .project-salestart, .project-salesend, .project-listingon, .project-liquidityprecent, .project-liquiditylock {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;;
+}
+.table-left {
+    width: 30%;
+}
+.table-left :left {
+    float: left;
+}
+.table-right {
+    width: 70%;
+}
+.table-right label {
+    float: right;
+}
+.pool-status {
+    margin-top: 30px;
+    background-color: #d1d1d1;
+    padding: 20px;
+    border-radius: 12px;
+}
+.pool-context {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
